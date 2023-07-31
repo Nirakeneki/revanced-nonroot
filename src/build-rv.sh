@@ -6,7 +6,9 @@ source ./src/tools.sh
 check_new_patch "revanced" "revanced"
 
 #Download Revanced patches
-dl_gh "revanced" "revanced-patches revanced-cli revanced-integrations" "latest"
+dl_gh "revanced" "revanced-patches" "tags/v2.187.0-dev.9"
+dl_gh "revanced" "revanced-cli" "tags/v2.23.0-dev.1"
+dl_gh "revanced" "revanced-integrations" "tags/v0.115.0-dev.4"
 
 # Download HTMLQ 
 dl_htmlq
